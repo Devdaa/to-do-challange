@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+}
+
+.navBar{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 600px;
+    border-bottom: gray solid 1px;
+}
+
+.btnA{
+    width: 90px;
+    height: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: #2F80ED 4px solid;
+}
+
+.btnZ{
+    width: 90px;
+    height: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.details{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.details > input{
+    margin-right: 20px;
+    width: 475px;
+    height: 55px;
+    border-radius: 12px;
+    border: #BDBDBD 1px solid;
+}
+
+.details > input::placeholder{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.details > button{
+    width: 110px;
+    background-color: #2F80ED;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+.toDoList{
+    margin: auto;
+    font-size: 18px;
+    width: 600px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.paragraph{
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.deleteBtn{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 480px;
+    background-color: #EB5757;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    width: 124px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
